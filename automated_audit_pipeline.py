@@ -3,8 +3,8 @@ import pdfplumber
 import ollama
 
 # --- FILE PATHS (Update these to your desktop paths) ---
-excel_path = r'C:\Users\sky\Desktop\Audit & Compliance\account_audit_2026.xlsx'
-pdf_path = r'C:\Users\sky\Desktop\Audit & Compliance\AML_KYC_Checklist.pdf'
+excel_path = r'C:\Users\sky\Desktop\Projects\AI-Audit-Compliance-Engine\data\sample.xlsx'
+pdf_path = r'C:\Users\sky\Desktop\Projects\AI-Audit-Compliance-Engine\data\sample.pdf'
 
 def local_ai_audit():
     print("--- 🧠 STEP 1: LOCAL AI ANALYZING POLICY ---")
